@@ -1,0 +1,42 @@
+1. Išveskite visus esamus įrašus airbnb kolekcijoje. 
+
+db.airbnb.find()
+
+2. Išveskite visus tik stulpelio ‘name’ įrašus. 
+
+db.airbnb.find({}, {name: 1, _id: 0})
+
+3. Suraskite įrašą ir išveskite įrašo informaciją, kurio name – “Catete's Colonial Big Hause Room B” 
+
+db.airbnb.find({name: "Catete's Colonial Big Hause Room B"})
+
+4. Įterpkite naują įrašą, įterpdami _id, pavadinimą ir URL (pavadinimas – Happy days). 
+
+db.airbnb.insertOne({_id: '10051165', 
+                     listing_url: 'https://www.airbnb.com/rooms/888542639814637035?check_in=2025-12-14&check_out=2025-12-18&search_mode=regular_search&source_impression_id=p3_1764436013_P3_p08Qt8Papj8-U&previous_page_section_name=1000&federated_search_id=66e795d1-2620-40a4-ad65-ddc641f859dd',
+                    name: "Happy days"
+                    })
+
+5. Atnaujinkite savo įterptą įrašą, pakeisdami pavadinimą į Unhappy days. 
+
+db.airbnb.updateOne({_id: '10051165'}, {$set: {name: 'Unhappy days'}})
+
+6. Ištrinkite savo sukurtą įrašą. 
+
+db.airbnb.deleteOne({_id: '10051165'})
+
+7. * Išveskite visų įrašų ID, kurių aplinkoje (space) yra žodis “studio”.
+
+db.airbnb.find({space: {$regex: 'studio'}}, {_id: 1})
+
+8. * Išveskite visų įrašų ID, kurių atsiliepimų kiekis didesnis, nei 50.
+
+db.airbnb.find({number_of_reviews: {$gt: 50}}, {_id: 1})
+
+9. * Išveskite visų įrašų ID, kurių atšaukimo politika yra lanksti arba griežta.
+
+db.airbnb.find({cancellation_policy: {$in: [/strict.*/, /flexible.*/]}}, {_id: 1})
+
+10. * Išveskite visų įrašų ID, kurie netalpina tik vieno asmens.
+
+db.airbnb.find({accommodates: {$ne: 1}}, {_id: 1})

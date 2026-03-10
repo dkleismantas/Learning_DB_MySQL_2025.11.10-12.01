@@ -1,0 +1,132 @@
+[
+  {
+    "_id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "genre": ["Sci-Fi", "Thriller"],
+    "rating": 8.8,
+    "duration_min": 148,
+    "reviews": [
+      { "user": "Anna", "comment": "Amazing plot!", "stars": 5 },
+      { "user": "Tomas", "comment": "A bit confusing, but great visuals.", "stars": 4 }
+    ],
+    "available_on": ["Netflix", "HBO Max"]
+  },
+  {
+    "_id": 2,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": ["Sci-Fi", "Drama"],
+    "rating": 8.6,
+    "duration_min": 169,
+    "reviews": [
+      { "user": "Jonas", "comment": "Mind-blowing!", "stars": 5 },
+      { "user": "Greta", "comment": "Too long, but emotional.", "stars": 4 }
+    ],
+    "available_on": ["Netflix"]
+  },
+  {
+    "_id": 3,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": ["Action", "Crime"],
+    "rating": 9.0,
+    "duration_min": 152,
+    "reviews": [
+      { "user": "Petras", "comment": "Best Batman ever!", "stars": 5 },
+      { "user": "Lina", "comment": "Heath Ledger was amazing.", "stars": 5 }
+    ],
+    "available_on": ["Amazon Prime", "HBO Max"]
+  },
+  {
+    "_id": 4,
+    "title": "Avatar",
+    "year": 2009,
+    "genre": ["Adventure", "Fantasy"],
+    "rating": 7.8,
+    "duration_min": 162,
+    "reviews": [
+      { "user": "Marius", "comment": "Beautiful visuals!", "stars": 4 },
+      { "user": "Sandra", "comment": "Weak story, but worth watching.", "stars": 3 }
+    ],
+    "available_on": ["Disney+", "Netflix"]
+  },
+  {
+    "_id": 5,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": ["Sci-Fi", "Action"],
+    "rating": 8.7,
+    "duration_min": 136,
+    "reviews": [
+      { "user": "Viktor", "comment": "Iconic and revolutionary.", "stars": 5 },
+      { "user": "Egle", "comment": "Still relevant today.", "stars": 4 }
+    ],
+    "available_on": ["HBO Max", "Amazon Prime"]
+  },
+  {
+    "_id": 6,
+    "title": "Joker",
+    "year": 2019,
+    "genre": ["Drama", "Crime"],
+    "rating": 8.5,
+    "duration_min": 122,
+    "reviews": [
+      { "user": "Rita", "comment": "Dark but brilliant.", "stars": 5 },
+      { "user": "Darius", "comment": "Very intense movie.", "stars": 4 }
+    ],
+    "available_on": ["Netflix"]
+  },
+  {
+    "_id": 7,
+    "title": "Titanic",
+    "year": 1997,
+    "genre": ["Romance", "Drama"],
+    "rating": 7.9,
+    "duration_min": 195,
+    "reviews": [
+      { "user": "Ieva", "comment": "Classic love story.", "stars": 5 },
+      { "user": "Karolis", "comment": "Too long, but emotional.", "stars": 4 }
+    ],
+    "available_on": ["Disney+"]
+  },
+  {
+    "_id": 8,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.9,
+    "duration_min": 154,
+    "reviews": [
+      { "user": "Auste", "comment": "Best Tarantino film!", "stars": 5 },
+      { "user": "Mindaugas", "comment": "Great dialogues.", "stars": 5 }
+    ],
+    "available_on": ["Amazon Prime"]
+  },
+  {
+    "_id": 9,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": ["Drama", "Comedy"],
+    "rating": 8.8,
+    "duration_min": 142,
+    "reviews": [
+      { "user": "Ema", "comment": "Heartwarming story.", "stars": 5 },
+      { "user": "Arturas", "comment": "Timeless classic.", "stars": 5 }
+    ],
+    "available_on": ["Netflix", "HBO Max"]
+  },
+  {
+    "_id": 10,
+    "title": "The Lion King",
+    "year": 1994,
+    "genre": ["Animation", "Adventure"],
+    "rating": 8.5,
+    "duration_min": 88,
+    "reviews": [
+      { "user": "Laura", "comment": "Childhood favorite!", "stars": 5 },
+      { "user": "Simas", "comment": "Still emotional.", "stars": 5 }
+    ],
+    "available_on": ["Disney+"]
+  }
+]

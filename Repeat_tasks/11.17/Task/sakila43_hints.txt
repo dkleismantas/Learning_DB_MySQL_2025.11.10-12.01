@@ -1,0 +1,43 @@
+-- Task 1: Commands: SELECT, FROM; Tables: film
+-- Task 2: Commands: SELECT, FROM, COUNT; Tables: film
+-- Task 3: Commands: SELECT, FROM, JOIN, DISTINCT; Tables: film, language
+-- Task 4: Commands: SELECT, FROM, WHERE; Tables: film
+-- Task 5: Commands: SELECT, FROM, ORDER BY; Tables: film
+-- Task 6: Commands: SELECT, FROM, WHERE; Tables: customer
+-- Task 7: Commands: SELECT, FROM, JOIN; Tables: staff, address
+-- Task 8: Commands: SELECT, FROM, WHERE, BETWEEN; Tables: film
+-- Task 9: Commands: SELECT, FROM, AVG; Tables: film
+-- Task 10: Commands: SELECT, FROM, MIN, MAX; Tables: film
+-- Task 11: Commands: SELECT, FROM, GROUP BY, COUNT; Tables: film
+-- Task 12: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT; Tables: film_category, category, film
+-- Task 13: Commands: SELECT, FROM, JOIN, GROUP BY, SUM; Tables: film_category, film, category
+-- Task 14: Commands: SELECT, FROM, JOIN, WHERE; Tables: film, film_category, category
+-- Task 15: Commands: SELECT, FROM, JOIN, AVG, GROUP BY; Tables: film, inventory, rental, payment
+-- Task 16: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT, ORDER BY, LIMIT; Tables: film, inventory, rental
+-- Task 17: Commands: SELECT, FROM, WHERE, NOT LIKE; Tables: customer
+-- Task 18: Commands: SELECT, FROM, WHERE, IS NULL; Tables: rental
+-- Task 19: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT, HAVING; Tables: staff, rental
+-- Task 20: Commands: SELECT, FROM, JOIN, AVG, GROUP BY; Tables: customer, payment
+-- Task 21: Commands: SELECT, FROM, JOIN, GROUP BY, SUM, HAVING, BETWEEN; Tables: customer, payment
+-- Task 22: Commands: SELECT, FROM, WHERE, NOT IN, JOIN, subquery; Tables: film, rental, inventory
+-- Task 23: Commands: SELECT, FROM, ORDER BY, LIMIT; Tables: film
+-- Task 24: Commands: SELECT, FROM, WHERE, subquery, AVG; Tables: film
+-- Task 25: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT; Tables: film, inventory, rental
+-- Task 26: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT, ORDER BY, CONCAT; Tables: customer, rental
+-- Task 27: Commands: SELECT, FROM, JOIN, GROUP BY, SUM, ORDER BY, LIMIT, CONCAT; Tables: customer, payment
+-- Task 28: Commands: SELECT, FROM, WHERE, UNION; Tables: customer
+-- Task 29: Commands: INSERT INTO, VALUES, NOW; Tables: customer
+-- Task 30: Commands: DELETE, FROM, WHERE, AND; Tables: customer
+-- Task 31: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT, HAVING; Tables: film, inventory
+-- Task 32: Commands: SELECT, FROM, GROUP BY, COUNT, ORDER BY, LIMIT; Tables: inventory
+-- Task 33: Commands: SELECT, FROM, JOIN, GROUP BY, AVG; Tables: film, language
+-- Task 34: Commands: SELECT, FROM, GROUP BY, COUNT, HAVING; Tables: film
+-- Task 35: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT; Tables: customer, address, city, country
+-- Task 36: Commands: SELECT, FROM, JOIN, GROUP BY, COUNT, HAVING; Tables: actor, film_actor
+-- Task 37: Commands: SELECT, FROM, JOIN, GROUP BY, SUM, ORDER BY, LIMIT, CONCAT; Tables: customer, payment
+-- Task 38: Commands: SELECT, FROM, GROUP BY, COUNT, HAVING; Tables: film
+-- Task 39: Commands: SELECT, FROM, WHERE, subquery, AVG; Tables: film
+-- Task 40: Commands: INSERT INTO, VALUES; Tables: film
+-- Task 41: Commands: SELECT, CONCAT, JOIN, GROUP BY, LIMIT (single-winner solution) or SELECT, CONCAT, JOIN, GROUP BY, HAVING, COUNT, MAX; Tables actor, film_actor
+-- Task 42: SELECT, FROM, JOIN, GROUP BY, ORDER BY; Tables: category, film_category, film, inventory, rental
+-- Task 43: SELECT, CONCAT, COUNT, FROM, JOIN, WHERE, GROUP BY, HAVING; Tables: costumer, rental, address, city
