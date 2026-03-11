@@ -1,6 +1,6 @@
 # Databases. Writing queries in MySQL Workbench. DB design
 ## Overview
-n this module, I learned how to write queries for MySQL databases. I also practiced CRUD queries, designed databases, created users, and assigned permissions. I had one lesson on MongoDB and writing queries for it.
+In this module, I learned how to write queries for MySQL databases. I also practiced CRUD queries, designed databases, created users, and assigned permissions. I had one lesson on MongoDB and writing queries for it.
 
 # Technologies used
 
