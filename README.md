@@ -31,10 +31,11 @@ If such a file does not exist, the database was likely imported in a previous to
 - Execute each task line separately so you can see the results at the bottom of the program.
 
 ## For DB design tasks
+
 **Warning:** All DB design assignments in Word files are provided in Lithuanian.
 - Open the designed databases in MySQL Workbench by selecting File > Open Model… and choosing the file with the .mwb extension.
 - After opening the file, you will see the designed database
 
-## Additional information
+# Additional information
 
 The launch process for the MongoDB topic is not described here. It requires a separate Docker container, MongoDB software, a separate connection, a database, and its own task‑running instructions. Since this is only a single topic, its setup is not included.
