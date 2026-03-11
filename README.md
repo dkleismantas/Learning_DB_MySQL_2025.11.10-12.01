@@ -7,7 +7,7 @@ n this module, I learned how to write queries for MySQL databases. I also practi
 - Docker, MySQL Workbench
 
 # How to run the assignments
-## **Warning:** Some assignments are provided in Lithuanian.
+**Warning:** Some assignments are provided in Lithuanian.
 
 ## Preparation
 
