@@ -4,7 +4,9 @@ In this module, I learned how to write queries for MySQL databases. I also pract
 
 # Technologies used
 
-- Docker, MySQL Workbench
+- Docker
+- MySQL Workbench
+- MongoDBCompass
 
 # How to run the assignments
 **Warning:** Some assignments are provided in Lithuanian.
